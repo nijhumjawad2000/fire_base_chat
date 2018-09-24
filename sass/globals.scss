@@ -1,0 +1,13 @@
+$primary-color: black;
+$secondary-color:#9a3333;
+$accent-color:#9a3333;
+$text-color:white;
+
+body{
+    margin: 0;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
