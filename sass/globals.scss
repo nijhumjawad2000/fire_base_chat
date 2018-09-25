@@ -3,11 +3,12 @@ $secondary-color:#9a3333;
 $accent-color:#9a3333;
 $text-color:white;
 
-body{
-    margin: 0;
-    font-family: 'Montserrat-Light', sans-serif;
+%flex{
+    display: flex;
+    justify-content: center;
+     align-items: center;
 }
 
-textarea:focus, input:focus{
-    outline: none;
+body{
+    overflow: hidden;
 }

@@ -1,92 +1,91 @@
 
-.box1{
-    
-    /* background-color: aqua; */
-    /* border: 1px solid black; */
-    /* padding: 4vw 4vh 4vw 4vh; */
-    /* background-image: url("https://i.ytimg.com/vi/LMKtIvfZ5B8/maxresdefault.jpg"); */
-    /* background-image: url("https://avatars.mds.yandex.net/get-pdb/70729/f565694a-22ce-42e8-a0a5-16ba0f2207c0/orig"); */
-    /* background-image: url("http://www.geniales.info/wp-content/uploads/2018/08/fantastic-3d-phone-wallpaper-and-blue-3d-background-by-xxdannehxx-on-deviantart.jpg"); */
-    /* background-image: url("https://powercore.info/wp-content/uploads/2018/06/animated-gif-moving-wallpapers-for-desktop-new-wallpaper-gif-shared-by-jojotaxe-on-gifer-of-animated-gif-moving-wallpapers-for-desktop.gif"); */
-    background-image: url("http://www.techagesite.com/Animated%20phone%20wallpapers/cool-moving-gifs-cell-phone-background-480x800.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 50px 50px 50px  gray;
-    position: absolute;
-    
+
+
+.box1 {
+  /* background-color: aqua; */
+  /* border: 1px solid black; */
+  /* padding: 4vw 4vh 4vw 4vh; */
+  /* background-image: url("https://i.ytimg.com/vi/LMKtIvfZ5B8/maxresdefault.jpg"); */
+  /* background-image: url("https://avatars.mds.yandex.net/get-pdb/70729/f565694a-22ce-42e8-a0a5-16ba0f2207c0/orig"); */
+  /* background-image: url("http://www.geniales.info/wp-content/uploads/2018/08/fantastic-3d-phone-wallpaper-and-blue-3d-background-by-xxdannehxx-on-deviantart.jpg"); */
+  /* background-image: url("https://powercore.info/wp-content/uploads/2018/06/animated-gif-moving-wallpapers-for-desktop-new-wallpaper-gif-shared-by-jojotaxe-on-gifer-of-animated-gif-moving-wallpapers-for-desktop.gif"); */
+  background-image: url("https://media3.giphy.com/media/U3qYN8S0j3bpK/200w.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
+  width: 100%;
+  height: 100%;
+  @extend %flex;
+  flex-direction: column;
+  box-shadow: 50px 50px 50px gray;
+  position: absolute;
 }
- 
-.logo{
-  display:flex;
-  height: 40vh;
+
+.logo {
   animation: transform 3s ease infinite alternate-reverse;
-  
-  
-}
-  @keyframes transform {
-    0%{transform: rotate(0deg);}
-     100%{transform: rotate(360deg)}       
-        
-    
-
-}
-.in{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    /* margin: 18px;   */
-    width: 71vw;
-    box-shadow: 0px 31px 50px rgb(1, 1, 65);
-    
 }
 
-
-.source{
-    /* display: flex;
-    justify-content:center;
-    flex-direction: row;
-    height:45%; */
-    justify-content: space-around;
-    display: flex;
-   align-content: center;
-  
+@keyframes transform {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-.source .facebook img{
-    width: 19vw;
-    height: 13vh;
-}
-.source .google img{
-    width: 14vw;
-    height: 10vh;
+.in {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* margin: 18px;   */
+  width: 71vw;
+  box-shadow: 0px 31px 50px #010141;
 }
 
-.button{
-    /* border: 1px solid black; */
-    display: flex;
-   
-    /* align-items: center; */
-    flex-direction: column;
-    width: 100%;
-  
+.source {
+  /* display: flex;
+  justify-content:center;
+  flex-direction: row;
+  height:45%; */
+  justify-content: space-around;
+  display: flex;
+  align-content: center;
+  width: 100%;
 }
-.button .sign_in{
-    background-color: rgb(154, 51, 51);
-    height: 8vh;
-    color: aliceblue;
+
+.source .facebook img {
+  width: 19vw;
+  height: 13vh;
 }
-.button .sign_up{
-    background-color: rgb(39, 60, 160);
-    height: 8vh;
-    color: white;
+
+.source .google img {
+  width: 14vw;
+  height: 10vh;
 }
-.forgot{
-    color: aliceblue;
-    height: 6vh;
+
+.button {
+  /* border: 1px solid black; */
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 100%;
 }
+
+.button .sign_in {
+  background-color: #9a3333;
+  height: 8vh;
+  color: aliceblue;
+}
+
+.button .sign_up {
+  background-color: #273ca0;
+  height: 8vh;
+  color: white;
+}
+
+.forgot {
+  color: aliceblue;
+  height: 6vh;
+}
+
