@@ -12,10 +12,10 @@ function mountLoadingScreen() {
     container.classList.add('Loading-screen');
     //to create in center
     container.innerHTML = `
+     <div class="loading">
      <div></div>
-    <div></div>
-    <div></div>
-    <div></div> 
+     </div>
+
     `
     
     

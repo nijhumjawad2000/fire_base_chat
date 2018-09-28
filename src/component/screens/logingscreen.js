@@ -9,37 +9,41 @@ function mountLoginScreen() {
     container.id = 'login-screen';                    //to loading screen
     container.classList.add('Login-screen');
     container.innerHTML = `
-    <div class="box1">
+
     
     <div class="logo">
-        <img style="max-width:59vw;" src="./image/cha.png" alt="">
+        <img class="image1" src="./image/cha.png" alt="">
     </div>
-        <div class="in">
+
+    <div class="in">
         <label for="uname"><b>Username</b></label>   
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <input class="username" type="text" placeholder="Enter Username" name="uname" required>
                 <br>
         <label for="uname"><b>Password</b></label>
-        <input type="text" placeholder="Enter Password" name="passw" required>        
-        </div>
-        <div class="forgot">
+        <input class="password" type="password" placeholder="Enter Password" name="passw" required>        
+    </div>
+
+    <div class="forgot">
         <a href="#" class="forgot">forgot password?</a> 
-       </div>
-            <div class="source">
-            <div class="facebook" id="facebook-login-button">
-                <img src="https://sguru.org/wp-content/uploads/2018/02/Facebook-PNG-Image-49351.png" alt="">
-            </div>   
-            <div class="google" id="google-login-btn"> 
+    </div>
+
+    <div class="source">
+          <div class="facebook" id="facebook-login-button">
+                <img src="./image/facebook1.png" alt="">
+          </div>   
+          <div class="google" id="google-login-btn"> 
                 <img 
-                src="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png" alt="">
-            </div>     
-            </div>
-            <div class="button">
+                src="./image/google.png" alt="">
+          </div>     
+    </div>
+
+    <div class="button1">
                 <button id="login-btn" class="sign_in">Sign In</button>
                <button id="sign-up" class="sign_up">Sign Up</button>
-             </div>
+    </div>
            
    
-</div>
+
       `;
     return container;
  }

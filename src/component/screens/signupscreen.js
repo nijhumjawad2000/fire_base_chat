@@ -9,9 +9,11 @@ function  mountSignUpScreen() {
     container.id = 'sign-up-screen';                    //to loading screen
     container.classList.add('sign-up-screen');
     container.innerHTML = `
-    <div class="box1">
-    <div class="back" >
-        <button id="back" style="width: 7vw; height: 5vh;"><img src="../image/_ionicons_svg_md-arrow-round-back.svg" alt=""></ion-icon></button>
+    
+    <div class="signup_head">
+    <div>
+        <button id="back" class="back"><img class="back_img" src="http://status-buzz.com/wp-content/uploads/2014/01/left-arrow-icon.png" alt=""></ion-icon></button>
+    </div>
     </div>
     
     <div class="logo">
@@ -32,13 +34,12 @@ function  mountSignUpScreen() {
             </label>     
         </div>
         
-            <div class="button">
-               
+            <div class="button4">
                <button id="sing-Up" class="sign_up">Sign Up</button>
              </div>
            
    
-</div>
+
       `;
     return container;
  }
