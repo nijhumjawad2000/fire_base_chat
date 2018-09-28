@@ -19,18 +19,18 @@ function  mountSignUpScreen() {
     <div class="logo">
         <img style="max-width:40vw;" src="../image/cha.png" alt="">
     </div>
-        <div class="in">
+        <div class="input1">
             <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" id="email "required>
+            <input class="input2" type="text" placeholder="Enter Email" name="email" id="email "required>
         
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+            <input class="input2" type="password" placeholder="Enter Password" name="psw" id="password" required>
         
             <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" id=""password-confirmation required>
+            <input class="input2" type="password" placeholder="Repeat Password" name="psw-repeat" id=""password-confirmation required>
         
             <label>
-              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              <input type="checkbox"  name="remember" style="margin-bottom:15px"> Remember me
             </label>     
         </div>
         
