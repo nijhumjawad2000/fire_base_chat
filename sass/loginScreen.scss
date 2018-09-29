@@ -1,0 +1,79 @@
+/*=========================login screen==============================================*/
+.Login-screen{
+  // /* background-color: aqua; */
+  // /* border: 1px solid black; */
+  // /* padding: 4vw 4vh 4vw 4vh; */
+  // //  background-image: url("https://i.ytimg.com/vi/LMKtIvfZ5B8/maxresdefault.jpg"); 
+  // /* background-image: url("https://avatars.mds.yandex.net/get-pdb/70729/f565694a-22ce-42e8-a0a5-16ba0f2207c0/orig"); */
+  // /* background-image: url("http://www.geniales.info/wp-content/uploads/2018/08/fantastic-3d-phone-wallpaper-and-blue-3d-background-by-xxdannehxx-on-deviantart.jpg"); */
+  // /* background-image: url("https://powercore.info/wp-content/uploads/2018/06/animated-gif-moving-wallpapers-for-desktop-new-wallpaper-gif-shared-by-jojotaxe-on-gifer-of-animated-gif-moving-wallpapers-for-desktop.gif"); */
+  background-image: url("http://www.kinyu-z.net/data/wallpapers/67/935135.jpg");
+  @extend %flex-posision;
+
+  .logo{
+   @extend %logo;
+    .image1{
+      @extend %image;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    }
+  }
+  .in{
+    color: white;
+    @extend %flex;
+    width: 50%;
+    .username{
+      @extend %user;
+    }
+    .password{
+      @extend %user;
+    }
+  }
+  .forgot {
+    color: aliceblue;
+    height: 6vh;
+  }
+
+  .source {
+    /* display: flex;
+    justify-content:center;
+    flex-direction: row;
+    height:45%; */
+    justify-content: space-around;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    .facebook img {
+      width: 19vw;
+      height: 13vh;
+    }
+    .google img {
+      width: 14vw;
+      height: 10vh;
+      margin-top: 6px;
+    }
+  }
+  .button1 {
+    @extend %flex;
+    width: 100%;
+    .sign_in {
+      background-color: #2196f366;
+      height: 8vh;
+      color: aliceblue;
+    }
+    .sign_up {
+      background-color: #3f51b552;
+      height: 8vh;
+      color: white;
+    }
+  }
+}
+  @keyframes transform {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+
+  }
+
+  /*======================================================================================*/

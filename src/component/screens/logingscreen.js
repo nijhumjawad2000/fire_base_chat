@@ -9,8 +9,6 @@ function mountLoginScreen() {
     container.id = 'login-screen';                    //to loading screen
     container.classList.add('Login-screen');
     container.innerHTML = `
-
-    
     <div class="logo">
         <img class="image1" src="./image/cha.png" alt="">
     </div>

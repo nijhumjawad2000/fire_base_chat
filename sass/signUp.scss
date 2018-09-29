@@ -1,0 +1,73 @@
+ /*=============================sign up screen========================================*/
+  
+ .sign-up-screen{
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+    /* padding: 4vw 4vh 4vw 4vh; */
+    /* background-image: url("https://i.ytimg.com/vi/LMKtIvfZ5B8/maxresdefault.jpg"); */
+    /* background-image: url("https://avatars.mds.yandex.net/get-pdb/70729/f565694a-22ce-42e8-a0a5-16ba0f2207c0/orig"); */
+    background-image: url("http://www.geniales.info/wp-content/uploads/2018/08/fantastic-3d-phone-wallpaper-and-blue-3d-background-by-xxdannehxx-on-deviantart.jpg");
+    /* background-image: url("https://powercore.info/wp-content/uploads/2018/06/animated-gif-moving-wallpapers-for-desktop-new-wallpaper-gif-shared-by-jojotaxe-on-gifer-of-animated-gif-moving-wallpapers-for-desktop.gif"); */
+    background-image: url("https://www.qdtrick.top/wp-content/uploads/2017/03/hd-mobile.jpg");
+    @extend %flex-posision;
+    .signup_head{
+        height: 11vh;
+        display: flex;
+        width: 100%;
+        background-color: #88393942;
+        // justify-content: left;
+        .back{
+            background-color: #61412e2e;
+            height: 100%;
+            width: 22vw;
+            display: flex;
+            justify-content: center;
+            .back_img{
+                @extend %size;
+              }
+          }
+      }
+      .logo{
+        @extend %logo;
+        .image1{
+         @extend %image;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+        }
+      }
+      .input1{
+        color: white;
+        @extend %flex;
+        width: 70%;
+        .input2{
+            height: 5vh;
+            border-radius: 13px;
+          }
+          
+      }
+      .button4{
+        width: 100%;
+        height: 10vh;
+        background-color: #b222221f;
+        .sign_up{
+            @extend %size;
+            background-color: #a05c5a3b;
+            color: white;
+            font-size: 29px;
+           
+          }
+      }
+  }
+
+  @keyframes transform {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+
+  }
+  
+  
+ 
+  
+  

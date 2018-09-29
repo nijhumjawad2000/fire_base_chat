@@ -24,9 +24,8 @@ function mountLoadingScreen() {
     // container.style.justifyContent = 'center';
     // container.style.alignItems = 'center';
     
-    return container;
-}
-{/* <div></div>
+    return container;}
+/* <div></div>
 <div></div>
 <div></div>
-<div></div> */}
+<div></div> */

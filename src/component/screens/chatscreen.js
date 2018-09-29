@@ -23,8 +23,8 @@ function mountChatScreen() {
 
    
     <div id="chat-messages" class="chat-messages">
-    <div class="msg-bubble-left" id="msg-bubble-left"></div>
-    <div class="msg-bubble-right" id="msg-bubble-right"></div>
+        <div class="msg-bubble-left" id="msg-bubble-left"></div>
+        <div class="msg-bubble-right" id="msg-bubble-right"></div>
     </div>
 
     <div class="chat-end">

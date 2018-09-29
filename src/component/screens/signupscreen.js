@@ -17,7 +17,7 @@ function  mountSignUpScreen() {
     </div>
     
     <div class="logo">
-        <img style="max-width:40vw;" src="../image/cha.png" alt="">
+        <img class="image1" src="./image/cha.png" alt="">
     </div>
         <div class="input1">
             <label for="email"><b>Email</b></label>
